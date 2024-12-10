@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1")
 public class UserApiController {
 
-    @GetMapping("/test")
+    @GetMapping("/ver")
     public String testEndpoint(){
         return "Test and point is working";
     }
